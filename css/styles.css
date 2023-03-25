@@ -1,0 +1,41 @@
+/* Основний колір текста #2E2F42; */
+
+/* Додатковий колір текста #434455; */
+
+/* Акцент #4D5AE5; */
+
+/* Білий #FFFFFF; */
+
+
+/* Додатковий колір фона #F4F4FD; */
+
+/* Колір героя і футера #2E2F42; */
+
+
+:root {
+    --primary-text-color: #2E2F42;
+    --title-text-color: #434455;
+    --accent-color: #4D5AE5;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.body-page {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .list:focus {
+    color: var(--accent-color);
+    ;
+}
