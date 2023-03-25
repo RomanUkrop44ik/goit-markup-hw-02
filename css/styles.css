@@ -39,3 +39,12 @@
     color: var(--accent-color);
     ;
 }
+
+.address .link {
+    color: #434455;
+}
+
+.address .list:focus,
+.address .link:hover {
+    color: #404BBF;
+}
