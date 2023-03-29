@@ -2,7 +2,7 @@
 
 /* Додатковий колір текста #434455; */
 
-/* Акцент #4D5AE5; */
+/* Акцент #E7E9FC; */
 
 /* Білий #FFFFFF; */
 
@@ -13,38 +13,281 @@
 
 
 :root {
-    --primary-text-color: #2E2F42;
-    --title-text-color: #434455;
-    --accent-color: #4D5AE5;
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #E7E9FC;
 }
 
 
-.list {
-    list-style: none;
+/**
+  |============================
+  | BASA STYLES
+  |============================
+*/
+
+body {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
-.body-page {
+
+
+
+
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+
+.header {
     background-color: #ffffff;
-    color: var(--primary-text-color);
 }
 
-/* Site nav */
+.header-nav {}
 
-.site-nav .link {
-    color: var(--primary-text-color);
+.header-logo {
+    color: var(--title-text-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
 }
 
-.site-nav .link:hover,
-.site-nav .list:focus {
-    color: var(--accent-color);
+.header-nav-list {
+    list-style: none;
+
+}
+
+.header-nav-link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.header-nav-link:focus,
+.header-nav-link:hover {
+
+    color: #404BBF;
     ;
 }
 
-.address .link {
-    color: #434455;
+.header-address-list {
+    list-style: none;
+    font-style: normal;
 }
 
-.address .list:focus,
-.address .link:hover {
-    color: #404BBF;
+.header-address-link {
+    color: var(--primary-text-color);
+    text-decoration: none;
 }
+
+.header-address-link:focus,
+.header-address-link:hover {
+    color: #404BBF;
+
+
+}
+
+
+/**
+  |============================
+  | HERO
+  |============================
+*/
+.hero {
+    background-color: #2E2F42;
+    ;
+}
+
+.hero-heading {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+}
+
+
+.hero-button {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+    background-color: #404BBF;
+}
+
+
+
+
+
+/**
+  |============================
+  | PRIORITET
+  |============================
+*/
+
+.prioritet {}
+
+.prioritet-list {
+    list-style: none;
+}
+
+.prioritet-item {}
+
+.prioritet-headline {
+    color: var(--title-text-color);
+}
+
+.prioritet-text {}
+
+
+
+
+
+/**
+  |============================
+  | WORK
+  |============================
+*/
+
+.work {}
+
+.work-heading {
+    font-size: 36px;
+    color: var(--title-text-color);
+}
+
+.work-list {
+    list-style: none;
+}
+
+.work-item {}
+
+.work-image {}
+
+/**
+  |============================
+  | TEAM PROJECT
+  |============================
+*/
+.team {
+    background-color: #F4F4FD;
+
+}
+
+.team-heading {
+    font-size: 36px;
+    color: var(--title-text-color);
+}
+
+.team-list {
+    list-style: none;
+}
+
+.team-item {
+    background-color: #ffffff;
+
+}
+
+.team-picture {}
+
+.team-name {
+    color: var(--title-text-color);
+    font-size: 20px;
+}
+
+.team-work {}
+
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-text {
+    color: #F4F4FD;
+}
+
+
+/**
+   |============================
+   | PAGE - PORTFOLIO - HW-2
+   |============================
+ */
+
+/**
+  |============================
+  | SECTION - BUTTON
+  |============================
+*/
+
+.section-button {}
+
+.button-list {
+    list-style: none;
+}
+
+.button-item {
+    background-color: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+    font-weight: 500;
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+.button-item:hover {
+    color: #ffffff;
+    background-color: #404BBF;
+}
+
+
+
+/**
+   |============================
+   | SECTION - PORTFOLIO
+   |============================
+ */
+
+.section-portfolio {}
+
+.portfolio-list {
+    list-style: none;
+}
+
+.portfolio-item {}
+
+.portfolio-picture {}
+
+.portfolio-heading {
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.portfolio-desc {}
