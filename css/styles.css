@@ -12,7 +12,11 @@
 /* Колір героя і футера #2E2F42; */
 
 
-
+/**
+  |============================
+  | ROOT
+  |============================
+*/
 
 :root {
     --color-iris: #4d5ae5;
@@ -37,11 +41,28 @@
 
 body {
     color: var(--color-slate);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
 }
 
+.heading-two-item {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
 
+.logo-link {
+    color: #4d5ae5;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
 
 
 
@@ -59,15 +80,12 @@ body {
 
 .header-logo {
     color: var(--color-navy-blue);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    text-transform: uppercase;
-    text-decoration: none;
+
 
 
 }
+
+
 
 .header-nav-list {
     list-style: none;
@@ -75,29 +93,40 @@ body {
 }
 
 .header-nav-link {
+    font-family: inherit;
     color: var(--color-navy-blue);
     text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
 }
 
 .header-nav-link:focus,
 .header-nav-link:hover {
-
+    font-family: inherit;
+    font-style: normal;
     color: var(--color-ocean);
     ;
 }
 
 .header-address-list {
-    list-style: none;
+
     font-style: normal;
+    list-style: none;
+
 }
 
 .header-address-link {
+    font-family: inherit;
     color: var(--color-slate);
     text-decoration: none;
 }
 
 .header-address-link:focus,
 .header-address-link:hover {
+    font-family: inherit;
     color: var(--color-ocean);
 
 
@@ -116,11 +145,12 @@ body {
 
 .hero-heading {
     color: var(--color-white);
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 
@@ -129,11 +159,19 @@ body {
     background-color: var(--color-iris);
     cursor: pointer;
     font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
 }
 
 .hero-button:focus,
 .hero-button:hover {
     background-color: var(--color-ocean);
+    font-style: normal;
 }
 
 
@@ -156,6 +194,10 @@ body {
 
 .prioritet-headline {
     color: var(--color-navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
 }
 
 .prioritet-text {}
@@ -213,10 +255,18 @@ body {
 
 .team-name {
     color: var(--color-navy-blue);
+    font-weight: 500;
     font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
 }
 
-.team-work {}
+.team-work {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
 
 /**
   |============================
@@ -230,12 +280,7 @@ body {
 
 .footer-logo {
     color: var(--color-cloud);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    text-transform: uppercase;
-    text-decoration: none;
+
 }
 
 .footer-text {
@@ -262,18 +307,30 @@ body {
 }
 
 .button-item {
+    font-family: inherit;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.50;
     background-color: var(--color-cloud);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     color: var(--color-iris);
     font-weight: 500;
-    font-family: inherit;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
 }
+
+
+
+
 
 .button-item:hover {
     color: var(--color-white);
     background-color: var(--color-ocean);
+
 }
 
 
@@ -283,7 +340,10 @@ body {
 
 .portfolio-item {}
 
-.link-picture {}
+.link-picture {
+    text-decoration: none;
+
+}
 
 .portfolio-picture {}
 
@@ -291,7 +351,12 @@ body {
     color: var(--color-navy-blue);
     font-family: Roboto;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.20;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
-.portfolio-desc {}
+.portfolio-desc {
+    font-family: inherit;
+    color: var(--color-slate);
+}
