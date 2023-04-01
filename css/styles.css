@@ -48,11 +48,6 @@ body {
     letter-spacing: 0.02em;
 }
 
-.body-portfolio-page {
-    font-family: 'Roboto', sans-serif;
-    color: var(--color-slate);
-}
-
 .logo-link {
     color: #4d5ae5;
     font-family: 'Raleway', sans-serif;
