@@ -295,20 +295,6 @@ body {
    |============================
  */
 
-.link {
-    text-decoration: none;
-}
-
-.logo-link {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-iris);
-}
-
 
 .dark-logo {
     color: #2e2f42;
@@ -382,16 +368,6 @@ body {
 
 .footer-portfolio {
     background-color: var(--color-navy-blue-modal);
-}
-
-.logo-link {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--color-iris);
 }
 
 
