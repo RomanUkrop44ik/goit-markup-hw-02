@@ -283,13 +283,6 @@ body {
     background-color: var(--color-navy-blue);
 }
 
-.footer-logo {
-    color: var(--color-cloud);
-    font-family: 'Raleway', sans-serif;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-
-}
 
 .footer-text {
     color: var(--color-cloud);
